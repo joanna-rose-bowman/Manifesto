@@ -25,7 +25,7 @@ p{
 	font-size:120pt;
 	line-height:145pt;
 	float:left;
-	color:black;
+	color:#7c7c7c;
 	padding-left: 10px;
 }
 
@@ -41,6 +41,7 @@ p{
 	font-family: 'Bebas Neue', cursive;
 	font-size:50pt;
 	clear:left;
+	color:#7c7c7c;
 }
 .greenbox{
 	background-color:#fadd5e;
@@ -70,7 +71,7 @@ p{
 }
 
 .art{
-	width:87%;
+	width:88%;
 	margin-left:3%;
 	margin-top:15px;
 	margin-bottom:15px;
@@ -85,7 +86,7 @@ p{
 }
 
 .design{
-	width:87%;
+	width:88%;
 	margin-left:3%;
 	margin-top:15px;
 	margin-bottom:15px;
@@ -109,7 +110,6 @@ p{
 	font-family: 'Playball', cursive;
 	font-size:75pt;
 	line-height:75pt;
-	margin-left:30%;
 	color:#ed956e;
 }
 
@@ -117,8 +117,37 @@ p{
 	font-family: 'Bebas Neue', cursive;
 	font-size:75pt;
 	line-height:75pt;
-	margin-left:23%;
 	color:#49aba7;
+}
+@media(min-width:600px){
+	.art{
+		float:left;
+		width:89%;
+	}
+	.design{
+		float:left;
+		width:89%;
+}
+}
+@media(min-width:700px){
+	.art{
+		float:left;
+		width:90%;
+	}
+	.design{
+		float:left;
+		width:90%;
+}
+}
+@media(min-width:800px){
+	.art{
+		float:left;
+		width:90%;
+	}
+	.design{
+		float:left;
+		width:90%;
+    }
 }
 @media(min-width:920px){
 	.title_last{
@@ -127,20 +156,68 @@ p{
 	.art{
 		float:left;
 		width:42%;
+		height:310px;
 	}
 	.design{
 		float:left;
-		width:42%;
+		width:42.5%;
+		height:310px;
 	}
 	.closer{
 		clear:left;
 	}
 }
+@media(min-width:1000px){
+	.title_last{
+		margin-left:200px;
+	}
+	.art{
+		float:left;
+		width:42.5%;
+		height:290px;
+	}
+	.design{
+		float:left;
+		width:42.5%;
+		height:290px;
+	}
+}
+@media(min-width:1100px){
+	.art{
+		float:left;
+		width:43%;
+		height:290px;
+	}
+	.design{
+		float:left;
+		width:42.5%;
+		height:290px;
+	}
+}
+@media(min-width:1200px){
+	.art{
+		float:left;
+		width:43%;
+		height:270px;
+	}
+	.design{
+		float:left;
+		width:43%;
+		height:270px;
+	}
+}
 @media(min-width:1260px){
 	.wrapper{
+		margin-top: 0px;
+		padding-top:25px;
+		padding-bottom:25px;
 		width:1260px;
 		margin-left:auto;
 		margin-right:auto;
+		background-color:#e8e8e8; 
+	}
+	body{
+		background-image: url(links/1.png);
 	}
 	.intro{
 		float:left;
@@ -149,21 +226,17 @@ p{
 	.art{
 		float:left;
 		width:27%;
+		height:345px;
 	}
 	.design{
 		float:left;
 		width:27%;
+		height:345px;
 	}
 	.closer{
 		clear:left;
 	}
 	.title{
 		margin-left:15%;
-	}
-	.art_section{
-		margin-left:25%;
-	}
-	.design_section{
-		margin-left:18%;
 	}
 }
